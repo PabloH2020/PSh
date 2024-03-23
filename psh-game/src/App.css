@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+  padding:0;
+  margin:0;
+  height:100%;
+  width:100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+/*Home page styles*/
+.home-container{
+  height:100vh;
+  background:url('./assets/background-odyssey.png');
+  background-size:cover;
+  
+}
+
+/*Stats page styles*/
+
+.stats-container{
+  height:100vh;
+  background:url('./assets/background-stars.png');
+  background-size:cover;
+}
+
+/*Report page styles*/
+.report-container{
+  height:100vh;
+  background:url('./assets/background-stars.png');
+  background-size:cover;
+}
+#chart-container canvas{
+  max-height:80%!important;
+}
+
